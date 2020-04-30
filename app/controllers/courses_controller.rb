@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class CoursesController < ApplicationController
-  def index; end
+  def index
+    @courses = Course.all
+  end
 
   def new; end
 end
