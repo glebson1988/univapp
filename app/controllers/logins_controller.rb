@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class LoginsController < ApplicationController
+  skip_before_action :require_user, only: %i[new create]
+
   def new; end
 
   def create
