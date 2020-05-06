@@ -1,24 +1,21 @@
-# README
+# University App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application created in order to learn working with Material Design front-end framework, with authentication
+system, sessions, restrict actions, etc.
 
-Things you may want to cover:
+### Features:
 
-* Ruby version
+* User can sign up as a student
+* Registered student can login
+* Logged in student can see other students
+* Logged in student can see the list of courses
+* Logged in student may enroll in a course
+* Student can't enroll in same course twice
+* Logged in student can edit his profile
+* Unregistered user can only see the list of courses
 
-* System dependencies
+**Ruby & Rails version:**
+- ruby 2.6.3
+- rails 5.2.4.2
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://glebson-univapp.herokuapp.com/
