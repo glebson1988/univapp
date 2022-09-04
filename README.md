@@ -17,5 +17,3 @@ system, sessions, restrict actions, etc.
 **Ruby & Rails version:**
 - ruby 2.6.3
 - rails 5.2.4.2
-
-https://glebson-univapp.herokuapp.com/
